@@ -17,7 +17,7 @@ export default function Error({ error, reset }: Props) {
   return (
   <>
     <h1>에러페이지</h1>
-    <button onClick={() => reset()}></button>
+    <button onClick={() => reset()}>새로고침</button>
   </>
   )
 }
